@@ -1,4 +1,5 @@
 package de.jooarye.eventmanager.event;
 
-public class EventStoppable {
+public interface EventStoppable extends Event {
+    boolean isStopped();
 }

@@ -1,15 +1,12 @@
-package de.jooarye.eventmanager;
+package de.jooarye.eventmanager.types;
 
 public enum Priority {
     HIGH(3), MIDDLE(2), LOW(1);
 
-    int id;
+    public int id;
 
-    public Priority(int id) {
+    Priority(int id) {
         this.id = id;
     }
 
-    public int getId() {
-        return id;
-    }
 }

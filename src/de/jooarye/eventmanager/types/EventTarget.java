@@ -1,4 +1,4 @@
-package de.jooarye.eventmanager;
+package de.jooarye.eventmanager.types;
 
 
 import java.lang.annotation.ElementType;
